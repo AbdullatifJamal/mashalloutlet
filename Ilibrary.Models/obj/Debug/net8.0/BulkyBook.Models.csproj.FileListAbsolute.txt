@@ -1,0 +1,22 @@
+D:\.net\Bulky\Bulky.Models\bin\Debug\net8.0\BulkyBook.Models.deps.json
+D:\.net\Bulky\Bulky.Models\bin\Debug\net8.0\BulkyBook.Models.dll
+D:\.net\Bulky\Bulky.Models\bin\Debug\net8.0\BulkyBook.Models.pdb
+D:\.net\Bulky\Bulky.Models\obj\Debug\net8.0\BulkyBook.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\Bulky\Bulky.Models\obj\Debug\net8.0\BulkyBook.Models.AssemblyInfoInputs.cache
+D:\.net\Bulky\Bulky.Models\obj\Debug\net8.0\BulkyBook.Models.AssemblyInfo.cs
+D:\.net\Bulky\Bulky.Models\obj\Debug\net8.0\BulkyBook.Models.csproj.CoreCompileInputs.cache
+D:\.net\Bulky\Bulky.Models\obj\Debug\net8.0\BulkyBook.Models.dll
+D:\.net\Bulky\Bulky.Models\obj\Debug\net8.0\refint\BulkyBook.Models.dll
+D:\.net\Bulky\Bulky.Models\obj\Debug\net8.0\BulkyBook.Models.pdb
+D:\.net\Bulky\Bulky.Models\obj\Debug\net8.0\ref\BulkyBook.Models.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\bin\Debug\net8.0\BulkyBook.Models.deps.json
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\bin\Debug\net8.0\BulkyBook.Models.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\bin\Debug\net8.0\BulkyBook.Models.pdb
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\obj\Debug\net8.0\BulkyBook.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\obj\Debug\net8.0\BulkyBook.Models.AssemblyInfoInputs.cache
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\obj\Debug\net8.0\BulkyBook.Models.AssemblyInfo.cs
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\obj\Debug\net8.0\BulkyBook.Models.csproj.CoreCompileInputs.cache
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\obj\Debug\net8.0\BulkyBook.Models.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\obj\Debug\net8.0\refint\BulkyBook.Models.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\obj\Debug\net8.0\BulkyBook.Models.pdb
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\obj\Debug\net8.0\ref\BulkyBook.Models.dll

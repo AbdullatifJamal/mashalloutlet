@@ -1,0 +1,13 @@
+C:\test\MashalOutlet\Ilibrary.Utility\bin\Release\net8.0\Ilibrary.Utility.deps.json
+C:\test\MashalOutlet\Ilibrary.Utility\bin\Release\net8.0\Ilibrary.Utility.dll
+C:\test\MashalOutlet\Ilibrary.Utility\bin\Release\net8.0\Ilibrary.Utility.pdb
+C:\test\MashalOutlet\Ilibrary.Utility\obj\Release\net8.0\Ilibrary.Utility.csproj.AssemblyReference.cache
+C:\test\MashalOutlet\Ilibrary.Utility\obj\Release\net8.0\Ilibrary.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\test\MashalOutlet\Ilibrary.Utility\obj\Release\net8.0\Ilibrary.Utility.AssemblyInfoInputs.cache
+C:\test\MashalOutlet\Ilibrary.Utility\obj\Release\net8.0\Ilibrary.Utility.AssemblyInfo.cs
+C:\test\MashalOutlet\Ilibrary.Utility\obj\Release\net8.0\Ilibrary.Utility.csproj.CoreCompileInputs.cache
+C:\test\MashalOutlet\Ilibrary.Utility\obj\Release\net8.0\Ilibrary.Utility.sourcelink.json
+C:\test\MashalOutlet\Ilibrary.Utility\obj\Release\net8.0\Ilibrary.Utility.dll
+C:\test\MashalOutlet\Ilibrary.Utility\obj\Release\net8.0\refint\Ilibrary.Utility.dll
+C:\test\MashalOutlet\Ilibrary.Utility\obj\Release\net8.0\Ilibrary.Utility.pdb
+C:\test\MashalOutlet\Ilibrary.Utility\obj\Release\net8.0\ref\Ilibrary.Utility.dll

@@ -1,0 +1,226 @@
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.deps.json
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.runtimeconfig.json
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.pdb
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\bin\Debug\net8.0\Ilibrary.Models.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\bin\Debug\net8.0\Ilibrary.Utility.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\bin\Debug\net8.0\Ilibrary.Models.pdb
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\bin\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.AssemblyReference.cache
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.AssemblyInfoInputs.cache
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.AssemblyInfo.cs
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\obj\Debug\net8.0\Ilibrary.72F65E7C.Up2Date
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\obj\Debug\net8.0\refint\Ilibrary.DataAccess.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.pdb
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.genruntimeconfig.cache
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\obj\Debug\net8.0\ref\Ilibrary.DataAccess.dll
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.deps.json
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.runtimeconfig.json
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.dll
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.pdb
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Models.dll
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Utility.dll
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Models.pdb
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.AssemblyReference.cache
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.AssemblyInfoInputs.cache
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.AssemblyInfo.cs
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.72F65E7C.Up2Date
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.dll
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.DataAccess\obj\Debug\net8.0\refint\Ilibrary.DataAccess.dll
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.pdb
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.genruntimeconfig.cache
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.DataAccess\obj\Debug\net8.0\ref\Ilibrary.DataAccess.dll
+D:\.net\Ilibrary\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.deps.json
+D:\.net\Ilibrary\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.runtimeconfig.json
+D:\.net\Ilibrary\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.dll
+D:\.net\Ilibrary\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.pdb
+D:\.net\Ilibrary\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Models.dll
+D:\.net\Ilibrary\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Utility.dll
+D:\.net\Ilibrary\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Models.pdb
+D:\.net\Ilibrary\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Utility.pdb
+D:\.net\Ilibrary\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.AssemblyReference.cache
+D:\.net\Ilibrary\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\Ilibrary\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.AssemblyInfoInputs.cache
+D:\.net\Ilibrary\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.AssemblyInfo.cs
+D:\.net\Ilibrary\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.CoreCompileInputs.cache
+D:\.net\Ilibrary\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.CopyComplete
+D:\.net\Ilibrary\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.dll
+D:\.net\Ilibrary\Ilibrary.DataAccess\obj\Debug\net8.0\refint\Ilibrary.DataAccess.dll
+D:\.net\Ilibrary\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.pdb
+D:\.net\Ilibrary\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.genruntimeconfig.cache
+D:\.net\Ilibrary\Ilibrary.DataAccess\obj\Debug\net8.0\ref\Ilibrary.DataAccess.dll
+C:\Projects\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.deps.json
+C:\Projects\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.runtimeconfig.json
+C:\Projects\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.dll
+C:\Projects\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.pdb
+C:\Projects\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Models.dll
+C:\Projects\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Utility.dll
+C:\Projects\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Models.pdb
+C:\Projects\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Projects\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.AssemblyReference.cache
+C:\Projects\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.AssemblyInfoInputs.cache
+C:\Projects\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.AssemblyInfo.cs
+C:\Projects\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.CoreCompileInputs.cache
+C:\Projects\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.sourcelink.json
+C:\Projects\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.72F65E7C.Up2Date
+C:\Projects\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.dll
+C:\Projects\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\refint\Ilibrary.DataAccess.dll
+C:\Projects\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.pdb
+C:\Projects\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.genruntimeconfig.cache
+C:\Projects\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\ref\Ilibrary.DataAccess.dll
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.deps.json
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.runtimeconfig.json
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.dll
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.pdb
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Models.dll
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Utility.dll
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Models.pdb
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.AssemblyReference.cache
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.AssemblyInfoInputs.cache
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.AssemblyInfo.cs
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.CoreCompileInputs.cache
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.sourcelink.json
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.72F65E7C.Up2Date
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.dll
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\refint\Ilibrary.DataAccess.dll
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.pdb
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.genruntimeconfig.cache
+C:\Projects\New folder\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\ref\Ilibrary.DataAccess.dll
+C:\test\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.deps.json
+C:\test\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.runtimeconfig.json
+C:\test\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.dll
+C:\test\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.pdb
+C:\test\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Models.dll
+C:\test\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Utility.dll
+C:\test\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Models.pdb
+C:\test\MashalStore\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Utility.pdb
+C:\test\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.AssemblyReference.cache
+C:\test\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\test\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.AssemblyInfoInputs.cache
+C:\test\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.AssemblyInfo.cs
+C:\test\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.CoreCompileInputs.cache
+C:\test\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.sourcelink.json
+C:\test\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.72F65E7C.Up2Date
+C:\test\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.dll
+C:\test\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\refint\Ilibrary.DataAccess.dll
+C:\test\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.pdb
+C:\test\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.genruntimeconfig.cache
+C:\test\MashalStore\Ilibrary.DataAccess\obj\Debug\net8.0\ref\Ilibrary.DataAccess.dll
+C:\Projects\abood\Abood\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.AssemblyReference.cache
+C:\Projects\abood\Abood\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\abood\Abood\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.AssemblyInfoInputs.cache
+C:\Projects\abood\Abood\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.AssemblyInfo.cs
+C:\Projects\abood\Abood\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.CoreCompileInputs.cache
+C:\Projects\abood\Abood\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.sourcelink.json
+C:\Projects\abood\Abood\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.dll
+C:\Projects\abood\Abood\Ilibrary.DataAccess\obj\Debug\net8.0\refint\Ilibrary.DataAccess.dll
+C:\Projects\abood\Abood\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.pdb
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.deps.json
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.runtimeconfig.json
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.dll
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.pdb
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Models.dll
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Utility.dll
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Models.pdb
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.AssemblyReference.cache
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.AssemblyInfoInputs.cache
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.AssemblyInfo.cs
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.sourcelink.json
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.72F65E7C.Up2Date
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.dll
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\refint\Ilibrary.DataAccess.dll
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.pdb
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.genruntimeconfig.cache
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\ref\Ilibrary.DataAccess.dll
+C:\Projects\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.deps.json
+C:\Projects\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.runtimeconfig.json
+C:\Projects\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.dll
+C:\Projects\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.pdb
+C:\Projects\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Models.dll
+C:\Projects\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Utility.dll
+C:\Projects\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Models.pdb
+C:\Projects\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Projects\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.AssemblyReference.cache
+C:\Projects\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.AssemblyInfoInputs.cache
+C:\Projects\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.AssemblyInfo.cs
+C:\Projects\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.CoreCompileInputs.cache
+C:\Projects\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.sourcelink.json
+C:\Projects\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.72F65E7C.Up2Date
+C:\Projects\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.dll
+C:\Projects\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\refint\Ilibrary.DataAccess.dll
+C:\Projects\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.pdb
+C:\Projects\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.genruntimeconfig.cache
+C:\Projects\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\ref\Ilibrary.DataAccess.dll
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.deps.json
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.runtimeconfig.json
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.dll
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.pdb
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Models.dll
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Utility.dll
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Models.pdb
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.AssemblyReference.cache
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.AssemblyInfoInputs.cache
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.AssemblyInfo.cs
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.sourcelink.json
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.72F65E7C.Up2Date
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.dll
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\refint\Ilibrary.DataAccess.dll
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.pdb
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.genruntimeconfig.cache
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\ref\Ilibrary.DataAccess.dll
+C:\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.deps.json
+C:\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.runtimeconfig.json
+C:\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.dll
+C:\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.pdb
+C:\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Models.dll
+C:\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Utility.dll
+C:\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Models.pdb
+C:\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Utility.pdb
+C:\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.AssemblyReference.cache
+C:\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.AssemblyInfoInputs.cache
+C:\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.AssemblyInfo.cs
+C:\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.CoreCompileInputs.cache
+C:\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.sourcelink.json
+C:\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.72F65E7C.Up2Date
+C:\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.dll
+C:\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\refint\Ilibrary.DataAccess.dll
+C:\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.pdb
+C:\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.genruntimeconfig.cache
+C:\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\ref\Ilibrary.DataAccess.dll
+C:\test\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.deps.json
+C:\test\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.runtimeconfig.json
+C:\test\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.dll
+C:\test\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.DataAccess.pdb
+C:\test\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Models.dll
+C:\test\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Utility.dll
+C:\test\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Models.pdb
+C:\test\MashalOutlet\Ilibrary.DataAccess\bin\Debug\net8.0\Ilibrary.Utility.pdb
+C:\test\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.AssemblyReference.cache
+C:\test\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\test\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.AssemblyInfoInputs.cache
+C:\test\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.AssemblyInfo.cs
+C:\test\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.csproj.CoreCompileInputs.cache
+C:\test\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.72F65E7C.Up2Date
+C:\test\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.dll
+C:\test\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\refint\Ilibrary.DataAccess.dll
+C:\test\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.pdb
+C:\test\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.genruntimeconfig.cache
+C:\test\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\ref\Ilibrary.DataAccess.dll
+C:\test\MashalOutlet\Ilibrary.DataAccess\obj\Debug\net8.0\Ilibrary.DataAccess.sourcelink.json

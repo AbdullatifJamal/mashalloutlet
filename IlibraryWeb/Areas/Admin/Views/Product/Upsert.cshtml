@@ -1,0 +1,407 @@
+﻿
+@model Ilibrary.Models.ViewModels.ProductVM
+
+
+<div class="card shadow border-0 my-4">
+<div class="card-header bg-secondary bg-gradient ml-0 py-3">
+    <div class="row">
+        <div class="col-12 text-center">
+            <h2 class="text-white py-2"> @(Model.Product.Id!=0?"Update":"Create") Product</h2>
+        </div>
+    </div>
+</div>
+<div class="card-body p-4">
+        <form method="post" class="row" enctype="multipart/form-data">
+            <input asp-for="Product.Id" hidden />
+            
+            <div class="row">
+                <div class="col-10">
+                    <div class="border p-3">
+
+                       
+                        <div class="form-floating py-2 col-12">
+                            <input asp-for="Product.Name" class="form-control border-0 shadow" />
+                            <label asp-for="Product.Name" class="ms-2"></label>
+
+                            <span asp-validation-for="Product.Name" class="text-danger"></span>
+                        </div>
+                        <div class="py-2 col-12">
+                            <label asp-for="Product.Description" class="ms-2 text-muted"></label>
+                            <textarea asp-for="Product.Description" class="form-control border-0 shadow"></textarea>
+
+
+                        </div>
+                            @* <div class="form-floating py-2 col-12"> *@
+                            @*     <input asp-for="Product.Price" class="form-control border-0 shadow" /> *@
+                            @*     <label asp-for="Product.Price" class="ms-2"></label> *@
+                            @*     <span asp-validation-for="Product.Price" class="text-danger"></span> *@
+                            @* </div> *@
+                        <div class="form-floating py-2 col-12 position-relative">
+                            <input asp-for="Product.Discount"
+                                   class="form-control border-0 shadow pe-5"
+                                   type="number"
+                                   min="0"
+                                   max="100"
+                                   step="0.01"
+                                   placeholder="0" />
+                            <label asp-for="Product.Discount" class="ms-2"></label>
+                            <span asp-validation-for="Product.Discount" class="text-danger"></span>
+                            <!-- Percentage icon -->
+                            <div class="position-absolute top-50 end-0 translate-middle-y me-3 text-muted">
+                                %
+                            </div>
+                        </div>
+
+                        <div class="form-floating py-2 col-12">
+                            <input asp-for="Product.Size" class="form-control border-0 shadow" />
+                            <label asp-for="Product.Size" class="ms-2"></label>
+                            <span asp-validation-for="Product.Size" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating py-2 col-12">
+                            <input asp-for="Product.Price" class="form-control border-0 shadow" />
+                            <label asp-for="Product.Price" class="ms-2"></label>
+                            <span asp-validation-for="Product.Price" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating py-2 col-12">
+                            <select asp-for="Product.IsAvailable" class="form-select border-0 shadow">
+                                <option value="">-- Select Availability --</option>
+                                <option value="true">In Stock</option>
+                                <option value="false">Out of Stock</option>
+                            </select>
+                            <label asp-for="Product.IsAvailable" class="ms-2">Is Available</label>
+                            <span asp-validation-for="Product.IsAvailable" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-floating py-2 col-12">
+                            <select asp-for="Product.OnBanner" class="form-select border-0 shadow">
+                                <option value="">-- Select Banner Status --</option>
+                                <option value="true">Yes</option>
+                                <option value="false">No</option>
+                            </select>
+                            <label asp-for="Product.OnBanner" class="ms-2">On Banner</label>
+                            <span asp-validation-for="Product.OnBanner" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating py-2 col-12">
+                            <select asp-for="Product.Category"
+                                    class="form-select border-0 shadow">
+                                <option value="Men">Men</option>    
+                                <option value="Women">Women</option>
+                                <option value="Kids">Kids</option>
+                            </select>
+                            <label asp-for="Product.OnBanner" class="ms-2">Category</label>
+                            <span asp-validation-for="Product.OnBanner" class="text-danger"></span>
+                        </div>
+
+                        @* <div class="form-floating py-2 col-12"> *@
+                        @*     <select asp-for="Product.brand" *@
+                        @*             asp-items="Model.BrandList" *@
+                        @*             class="form-select border-0 shadow"> *@
+                        @*     </select> *@
+                        @*     <label asp-for="Product.brand" class="ms-2">Brand</label> *@
+                        @*     <span asp-validation-for="Product.brand" class="text-danger"></span> *@
+                        @* </div> *@
+
+                        <div class="form-floating py-2 col-12">
+                            <select asp-for="@Model.Product.BrandId" asp-items="@Model.BrandList" class="form-select border-0 shadow">
+                                <option disabled selected>--Select Brand--</option>
+                            </select>
+                            <label asp-for="Product.BrandId" class="ms-2"></label>
+                            <span asp-validation-for="Product.BrandId" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating py-2 col-12">
+                            <select asp-for="@Model.Product.TypeId" asp-items="@Model.TypeList" class="form-select border-0 shadow">
+                                <option disabled selected>--Select Type--</option>
+                            </select>
+                            <label asp-for="Product.TypeId" class="ms-2"></label>
+                            <span asp-validation-for="Product.TypeId" class="text-danger"></span>
+                        </div>
+                        
+                      <!-- Main Image Section -->
+                    <div class="form-floating py-2 col-12">
+                        <label asp-for="MainImage" class="form-label">Main Image</label>
+
+                                                @if (Model.Product.Id != 0 && Model.Product.MainImage != null)
+                                                {
+                                <div id="mainImagePreview" class="mb-2 text-center">
+                                        <img width="100%" style="max-width: 100%; max-height: 300px; border-radius: 10px; border:1px solid #ddd; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"
+                                         src="data:image/jpeg;base64,@Convert.ToBase64String(Model.Product.MainImage)"
+                                         id="mainImagePreviewImg" alt="Current Main Image" />
+                                    <button type="button" class="btn btn-sm btn-danger mt-2" id="deleteMainImageButton">
+                                        Remove Image
+                                    </button>
+                                </div>
+                                                }
+                                                else
+                                                {
+                                <div id="mainImagePreview" style="display: none;" class="mb-2 text-center">
+                                    <img id="mainImagePreviewImg" style="max-width: 100%; border-radius: 5px; border:1px solid #bbb9b9" alt="Image Preview" />
+                                    <button type="button" class="btn btn-sm btn-danger mt-2" id="deleteMainImageButton" style="display: none;">
+                                        Remove Image
+                                    </button>
+                                </div>
+                                                }
+
+                            <!-- Main Image File Input -->
+                            <div class="form-floating py-2 col-12">
+                                <label asp-for="MainImage" class="form-label">Main Image</label>
+                                <input asp-for="MainImage" type="file" class="form-control" id="mainImageInput" accept="image/*"
+                                       onchange="previewMainImage(this)" />
+                                <span asp-validation-for="MainImage" class="text-danger"></span>
+
+                                <!-- Main Image Preview -->
+                                <div class="mt-2" id="mainImagePreviewContainer">
+                                    <img id="mainImagePreview" src="@Url.Content("~/images/default-placeholder.png")"
+                                         alt="Main Image Preview" class="img-thumbnail" style="max-width: 200px; display: none;" />
+                                    <button type="button" class="btn btn-danger btn-sm mt-2"
+                                            id="removeMainImageButton" style="display: none;"
+                                            onclick="removeMainImage()">
+                                        Remove
+                                    </button>
+                                </div>
+
+                                <!-- Hidden Input to Track Image Removal -->
+                                <input type="hidden" name="IsMainImageRemoved" id="isMainImageRemoved" value="false" />
+                            </div>
+
+                            <!-- Secondary Images Section -->
+                            <div class="form-floating py-2 col-12">
+                                <label asp-for="SecondaryImages" class="form-label">Secondary Images</label>
+                                <input asp-for="SecondaryImages" type="file" class="form-control" id="secondaryImagesInput"
+                                       multiple accept="image/*" onchange="previewSecondaryImages(this)" />
+                                <span asp-validation-for="SecondaryImages" class="text-danger"></span>
+
+                                <!-- Secondary Images Preview -->
+                                <div class="row mt-2" id="secondaryImagesPreview"></div>
+                            </div>
+
+                            <script>
+                                // Preview Main Image
+                                function previewMainImage(input) {
+                                    const preview = document.getElementById('mainImagePreview');
+                                    const previewContainer = document.getElementById('mainImagePreviewContainer');
+                                    const removeButton = document.getElementById('removeMainImageButton');
+
+                                    if (input.files && input.files[0]) {
+                                        const reader = new FileReader();
+                                        reader.onload = function (e) {
+                                            preview.src = e.target.result;
+                                            preview.style.display = 'block';
+                                            removeButton.style.display = 'inline-block';
+                                        };
+                                        reader.readAsDataURL(input.files[0]);
+                                    } else {
+                                        removeMainImage(); // Reset if no file is selected
+                                    }
+                                }
+
+                                // Remove Main Image
+                                function removeMainImage() {
+                                    const input = document.getElementById('mainImageInput');
+                                    const preview = document.getElementById('mainImagePreview');
+                                    const removeButton = document.getElementById('removeMainImageButton');
+
+                                    input.value = ''; // Clear input
+                                    preview.src = ''; // Clear preview
+                                    preview.style.display = 'none';
+                                    removeButton.style.display = 'none';
+
+                                    // Update hidden input
+                                    document.getElementById('isMainImageRemoved').value = 'true';
+                                }
+
+                                // Preview Secondary Images
+                                function previewSecondaryImages(input) {
+                                    const previewContainer = document.getElementById('secondaryImagesPreview');
+                                    previewContainer.innerHTML = ''; // Clear existing previews
+
+                                    if (input.files) {
+                                        Array.from(input.files).forEach(file => {
+                                            const reader = new FileReader();
+                                            reader.onload = function (e) {
+                                                const img = document.createElement('img');
+                                                img.src = e.target.result;
+                                                img.alt = "Secondary Image Preview";
+                                                img.className = "img-thumbnail m-1";
+                                                img.style.maxWidth = '100px';
+                                                previewContainer.appendChild(img);
+                                            };
+                                            reader.readAsDataURL(file);
+                                        });
+                                    }
+                                }
+                            </script>
+
+
+
+                        
+
+
+                        <div class="row pt-2">
+    <div class="col-6 col-md-3 d-flex align-items-center">
+                                @if (Model.Product.Id != 0)
+                                {
+                <button type="submit" class="btn btn-primary form-control">Update</button>
+                                }
+                                else
+                                {
+                <button type="submit" class="btn btn-primary form-control" style="margin-top:20px;">Create</button>
+                                }
+    </div>
+    <div class="col-6 col-md-3 d-flex align-items-center">
+        <a asp-controller="Product" asp-action="Index" class="btn btn-outline-primary border form-control">
+            Back To List
+        </a>
+    </div>
+</div>
+
+
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="border p-1 m-2 text-center">
+
+                      
+                        @if (Model.Product.MainImage !=null) 
+                        {
+                            <img width="100%" style="border-radius: 5px; border:1px solid #bbb9b9" src="data:image/jpeg;base64,@Convert.ToBase64String(Model.Product.MainImage)">
+
+                         }
+
+
+                    </div>
+                    
+                </div>
+            </div>
+        </form>
+        </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+
+      
+        const mainImageInput = document.getElementById('mainImageInput');
+        const mainImagePreview = document.getElementById('mainImagePreview');
+        const mainImagePreviewImg = document.getElementById('mainImagePreviewImg');
+        const deleteMainImageButton = document.getElementById('deleteMainImageButton');
+        const isMainImageRemoved = document.getElementById('isMainImageRemoved'); // Hidden input
+
+        // Handle main image input change
+        mainImageInput.addEventListener('change', function () {
+            const file = this.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    mainImagePreviewImg.src = e.target.result;
+                    mainImagePreview.style.display = 'block';
+                    deleteMainImageButton.style.display = 'inline-block';
+                    isMainImageRemoved.value = 'false'; // Reset if new image is added
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+
+        // Handle delete main image button click
+        deleteMainImageButton?.addEventListener('click', function () {
+            // Confirm removal action
+            if (confirm("Are you sure you want to remove the main image?")) {
+                // Clear the file input value
+                mainImageInput.value = '';
+
+                // Hide the image preview and delete button
+                mainImagePreview.style.display = 'none';
+                mainImagePreviewImg.src = '';
+                this.style.display = 'none';
+
+                // Mark the image as removed
+                isMainImageRemoved.value = 'true';
+                alert("Main image removed from the view. Changes will apply after submission.");
+            }
+        });
+
+        // Secondary Images Handling
+       const secondaryImagesInput = document.getElementById('secondaryImagesInput');
+    const secondaryImagesPreview = document.getElementById('secondaryImagesPreview');
+
+    // Maintain a custom list of files
+    let selectedFiles = [];
+
+    // Event listener for file input changes
+    secondaryImagesInput.addEventListener('change', function () {
+        // Add newly selected files to the custom file list
+        selectedFiles = [...this.files];
+
+        // Update the preview
+        updatePreview();
+    });
+
+    // Function to update the image preview
+    function updatePreview() {
+        // Clear previous previews
+        secondaryImagesPreview.innerHTML = '';
+
+        // Iterate through the custom file list
+        selectedFiles.forEach((file, index) => {
+            // Create a FileReader to preview the image
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                // Create a preview container
+                const div = document.createElement('div');
+                div.classList.add('col-3', 'p-1', 'position-relative');
+
+                // Create an image element
+                const img = document.createElement('img');
+                img.src = e.target.result;
+                img.classList.add('img-fluid', 'border', 'rounded');
+                img.style = 'width: 100%; height: auto;';
+
+                // Create a delete button
+                const removeIcon = document.createElement('i');
+                removeIcon.classList.add('fa-solid', 'fa-trash-can', 'position-absolute', 'text-danger');
+                removeIcon.style = 'top: 5px; right: 5px; cursor: pointer;';
+                removeIcon.title = 'Remove this image';
+
+                // Attach delete functionality
+                removeIcon.addEventListener('click', () => {
+                    removeFile(index);
+                });
+
+                // Append elements to the preview container
+                div.appendChild(img);
+                div.appendChild(removeIcon);
+                secondaryImagesPreview.appendChild(div);
+            };
+
+            // Read the file as a Data URL
+            reader.readAsDataURL(file);
+        });
+
+        // Update the file input to reflect the custom file list
+        updateFileInput();
+    }
+
+    // Function to remove a file
+    function removeFile(index) {
+        // Remove the file from the custom file list
+        selectedFiles.splice(index, 1);
+
+        // Update the preview
+        updatePreview();
+    }
+
+    // Function to update the file input to reflect the custom file list
+    function updateFileInput() {
+        const dataTransfer = new DataTransfer();
+
+        // Append each file to the DataTransfer object
+        selectedFiles.forEach((file) => {
+            dataTransfer.items.add(file);
+        });
+
+        // Assign the new FileList to the input element
+        secondaryImagesInput.files = dataTransfer.files;
+    }
+
+    </script>
+}

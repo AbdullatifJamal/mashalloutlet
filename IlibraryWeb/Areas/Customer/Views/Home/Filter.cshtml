@@ -1,0 +1,558 @@
+﻿@model FilterVM
+<style>
+    .card-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    }
+
+    .img-fluid {
+    width: 300px; /* Set a fixed width */
+    height: 300px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image scales to fill the dimensions while maintaining aspect ratio */
+    display: block;
+    margin: 0 auto; /* Centers the image */
+    border-radius: 5px; /* Optional: Adds rounded corners */
+    }
+
+
+    img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image fills the container */
+    display: block;
+    }
+
+
+    /* Specific Section Image Styles */
+    .carousel img,
+    .product img {
+    width: 200px; /* Adjust based on your layout */
+    height: 200px; /* Ensure uniform height */
+    object-fit: cover; /* Crop excess to fit */
+    margin: auto;
+    }
+
+    /* Adjust Banner Images */
+    .banner img {
+    width: 100%; /* Full-width for banners */
+    height: 400px; /* Fixed height */
+    object-fit: cover; /* Crop to fit the container */
+    }
+
+    /* Partner Brand Logos */
+    .partner-col img {
+    max-width: 150px;
+    height: auto; /* Maintain logo aspect ratio */
+    object-fit: contain; /* Contain logos without cropping */
+    margin: auto;
+    }
+
+    .img-display {
+    overflow: hidden;
+    }
+
+    .img-showcase {
+    display: flex;
+    width: 100%;
+    transition: all 0.5s ease;
+    }
+
+    .img-showcase img {
+    min-width: 100%;
+    }
+
+    .img-select {
+    display: flex;
+    }
+
+    .img-item {
+    margin: 0.3rem;
+    }
+
+    .img-item:nth-child(1),
+    .img-item:nth-child(2),
+    .img-item:nth-child(3),
+    .img-item:nth-child(4) {
+    margin-right: 0;
+    }
+
+    .img-item:hover {
+    opacity: 0.8;
+    }
+
+    .product-title {
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    position: relative;
+    color: #12263a;
+    margin: 1rem 0;
+    }
+
+    .product-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 80px;
+    background: #12263a;
+    }
+
+    .product-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    background: #7971ea;
+    color: #fff;
+    padding: 0 0.3rem;
+    transition: all 0.5s ease;
+    }
+
+    .product-link:hover {
+    opacity: 0.9;
+    }
+
+    .product-price {
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+    }
+
+    .product-price span {
+    font-weight: 400;
+    }
+
+    .last-price span {
+    color: #f66a47;
+    text-decoration: line-through;
+    }
+
+    .new-price span {
+    color: #256eff;
+    }
+
+    .product-detail h2 {
+    text-transform: capitalize;
+    color: #12263a;
+    padding-bottom: 0.6rem;
+    }
+
+    .product-detail p {
+    font-size: 0.9;
+    padding: 0.3rem;
+    opacity: 0.8;
+    }
+
+    .product-detail ul {
+    margin: 1rem 0;
+    font-size: 0.9;
+    }
+
+    .product-detail ul li {
+    margin: 0;
+    list-style: none;
+    background-size: 18px;
+    padding-left: 1.7rem;
+    font-weight: 600;
+    opacity: 0.9;
+    }
+
+    .product-detail ul li span {
+    font-weight: 400;
+    }
+
+
+
+    @@media screen and (min-width: 992px) {
+    .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    }
+
+    .screen-wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .product-imgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    .produt-content {
+    padding-top: 0;
+    }
+    }
+</style>
+<script>
+    function handleRadioChange() {
+    // Get all radio buttons in the group
+    const radios = document.querySelectorAll('input[name="gender"]');
+
+    // Hide all content sections
+    document.getElementById('upper-lower-content').style.display = 'none';
+    document.getElementById('shoes-content').style.display = 'none';
+    document.getElementById('size-container').style.display = 'none';
+    document.getElementById('type-box').style.display = 'none';
+    document.getElementById('hoddie').style.display = 'none';
+    document.getElementById('denim').style.display = 'none';
+
+    // Check which radio is active and display corresponding content
+    radios.forEach(radio => {
+    if (radio.checked) {
+    if (radio.id === 's_upper') {
+    document.getElementById('upper-lower-content').style.display = 'block';
+    document.getElementById('size-container').style.display = 'block';
+    document.getElementById('type-box').style.display = 'block';
+    document.getElementById('hoddie').style.display = 'block';
+    } else if (radio.id === 's_lower') {
+    document.getElementById('upper-lower-content').style.display = 'block';
+    document.getElementById('size-container').style.display = 'block';
+    document.getElementById('type-box').style.display = 'block';
+    document.getElementById('denim').style.display = 'block';
+
+    } else if (radio.id === 's_shoes') {
+    document.getElementById('shoes-content').style.display = 'block';
+    document.getElementById('size-container').style.display = 'block';
+    document.getElementById('type-box').style.display = 'block';
+    document.getElementById('shoes').style.display = 'block';
+    }
+    }
+    });
+    }
+</script>
+
+@* Search Bar *@
+<div class="bg-light py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mt-3">
+                <style>
+                    form.d-flex .form-control {
+                        height: 42px; /* Set a fixed height */
+                        padding: 0.375rem 0.75rem;
+                    }
+
+                    form.d-flex .btn-primary {
+                        height: 42px; /* Match the input height */
+                        padding: 0.375rem 1rem;
+                        display: flex;
+                        align-items: center; /* Align icon vertically */
+                        justify-content: center; /* Center content */
+                    }
+                </style>
+                <form method="get" action="@Url.Action("Filter", "Home")" class="d-flex align-items-center">
+                    <!-- Search Input -->
+                    <input type="text"
+                           name="searchTerm"
+                           class="form-control me-2"
+                           placeholder="Search for products..."
+                           value="@Model.SearchTerm"
+                           aria-label="Search"
+                           style="height: 100%;">
+
+                    <!-- Include Selected Categories -->
+                    @foreach (var category in Model.SelectedCategories ?? new List<string>())
+                    {
+                        <input type="hidden" name="categories" value="@category" />
+                    }
+
+                    <!-- Include Selected Sort -->
+                    <input type="hidden" name="sort" value="@ViewBag.CurrentSort" />
+
+                    <!-- Search Button -->
+                    <button type="submit" class="btn btn-primary" style="height: 100%; padding: 0.5rem 1rem;margin:auto; line-height: 1.2;">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="site-section">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md-9 order-2">
+                @* Sort By section *@
+                <div class="row">
+                    <div class="col-md-12 mb-5">
+                        <div class="float-md-left mb-4"><h2 class="text-black h5">Shop All</h2></div>
+                        <div class="d-flex">
+                            <div class="btn-group">
+                                <!-- Update the button text based on the current sort value -->
+                                <button type="button" class="btn btn-secondary btn-sm dropdown-toggle" id="dropdownMenuReference" data-toggle="dropdown">
+                                    @* Display the current selected sort option *@
+                                    @if (ViewBag.CurrentSort == "Relevance")
+                                    {
+                                        <span>Relevance</span>
+                                    }
+                                    else if (ViewBag.CurrentSort == "NameAsc")
+                                    {
+                                        <span>Name, A to Z</span>
+                                    }
+                                    else if (ViewBag.CurrentSort == "NameDesc")
+                                    {
+                                        <span>Name, Z to A</span>
+                                    }
+                                    else if (ViewBag.CurrentSort == "PriceAsc")
+                                    {
+                                        <span>Price, low to high</span>
+                                    }
+                                    else if (ViewBag.CurrentSort == "PriceDesc")
+                                    {
+                                        <span>Price, high to low</span>
+                                    }
+                                    else
+                                    {
+                                        <span>Sort by</span> <!-- Default text when no option is selected -->
+                                    }
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuReference">
+                                    <a class="dropdown-item @(ViewBag.CurrentSort == "Relevance" ? "active" : "")" href="?searchTerm=@Model.SearchTerm&sort=Relevance">Relevance</a>
+                                    <a class="dropdown-item @(ViewBag.CurrentSort == "NameAsc" ? "active" : "")" href="?searchTerm=@Model.SearchTerm&sort=NameAsc">Name, A to Z</a>
+                                    <a class="dropdown-item @(ViewBag.CurrentSort == "NameDesc" ? "active" : "")" href="?searchTerm=@Model.SearchTerm&sort=NameDesc">Name, Z to A</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item @(ViewBag.CurrentSort == "PriceAsc" ? "active" : "")" href="?searchTerm=@Model.SearchTerm&sort=PriceAsc">Price, low to high</a>
+                                    <a class="dropdown-item @(ViewBag.CurrentSort == "PriceDesc" ? "active" : "")" href="?searchTerm=@Model.SearchTerm&sort=PriceDesc">Price, high to low</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                @* Products Show *@
+                <div id="product-list-container">
+                    @Html.Partial("_ProductListPartial", Model)
+                </div>
+                
+            </div>
+
+            @* Category Filter *@
+            <div class="col-md-3 order-1 mb-5 mb-md-0">
+                <!-- Filters Button (Visible on Mobile Only) -->
+                <button class="btn btn-primary d-md-none mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#filterOptions" aria-expanded="false" aria-controls="filterOptions">
+                    Filters
+                </button>
+
+                <!-- Collapsible Filter Options -->
+                <div class="collapse d-md-block" id="filterOptions">
+                    <form method="get" action="@Url.Action("Filter", "Home")">
+                    @* <div class="border p-4 rounded mb-4"> *@
+                    @*     <h3 class="mb-3 h6 text-uppercase text-black d-block">Section</h3> *@
+
+                    @*     <input type="hidden" name="searchTerm" value="@Model.SearchTerm" /> *@
+                    @*     <input type="hidden" name="sort" value="@ViewBag.CurrentSort" /> *@
+
+                    @*     <ul class="list-unstyled mb-0"> *@
+                    @*         @foreach (var sectionName in ViewBag.AllSections as List<string>) *@
+                    @*         { *@
+                    @*             <li class="mb-1"> *@
+                    @*                 <a class="d-flex"> *@
+                    @*                     <span> @sectionName </span> *@
+                    @*                     <span class="text-black ml-auto"> *@
+                    @*                         <label class="d-flex"> *@
+                    @*                             <input type="checkbox" class="section-checkbox" name="section" value="@sectionName" *@
+                    @*                             @(Model.Section != null && Model.Section.Equals(sectionName, StringComparison.OrdinalIgnoreCase) ? "checked" : "")> *@
+                    @*                         </label> *@
+                    @*                     </span> *@
+                    @*                 </a> *@
+                    @*             </li> *@
+                    @*         } *@
+                    @*     </ul> *@
+
+                    @*     <script> *@
+                    @*         // Enforce single checkbox selection *@
+                    @*         document.addEventListener('DOMContentLoaded', function () { *@
+                    @*         const checkboxes = document.querySelectorAll('.section-checkbox'); *@
+
+                    @*         checkboxes.forEach(checkbox => { *@
+                    @*         checkbox.addEventListener('change', function () { *@
+                    @*         if (this.checked) { *@
+                    @*         // Uncheck all other checkboxes *@
+                    @*         checkboxes.forEach(cb => { *@
+                    @*         if (cb !== this) { *@
+                    @*         cb.checked = false; *@
+                    @*         } *@
+                    @*         }); *@
+                    @*         } *@
+                    @*         }); *@
+                    @*         }); *@
+                    @*         }); *@
+                    @*     </script> *@
+                    @* </div> *@
+                        <div class="border p-4 rounded mb-4">
+                            <h3 class="mb-3 h6 text-uppercase text-black d-block mt-4">Category</h3>
+                            <ul class="list-unstyled mb-0">
+                                @foreach (var category in ViewBag.AllCategories as List<string>)
+                                {
+                                    <li class="mb-1">
+                                        <a class="d-flex">
+                                            <span>@category</span>
+                                            <span class="text-black ml-auto">
+                                                <label class="d-flex">
+                                                    <input type="checkbox" name="categories" value="@category"
+                                                    @(Model.SelectedCategories != null && Model.SelectedCategories.Contains(category) ? "checked" : "")>
+                                                </label>
+                                            </span>
+                                        </a>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+
+                        <!-- Type Filter -->
+                        <div class="border p-4 rounded mb-4" id="type-box">
+                            <h3 class="mb-3 h6 text-uppercase text-black d-block">Type</h3>
+                            <ul class="list-unstyled mb-0">
+                                @if (ViewBag.AllTypes is List<string> allTypes)
+                                {
+                                    foreach (var type in allTypes)
+                                    {
+                                        <li class="mb-1">
+                                            <a class="d-flex align-items-center">
+                                                <span>@type</span>
+                                                <span class="text-black ml-auto">
+                                                    <label class="d-flex align-items-center">
+                                                        <input type="checkbox" name="types" value="@type"
+                                                        @(Model.SelectedTypes != null && Model.SelectedTypes.Contains(type) ? "checked" : "") />
+                                                    </label>
+                                                </span>
+                                            </a>
+                                        </li>
+                                    }
+                                }
+                            </ul>
+                        </div>
+
+                        <!-- Brand Filter -->
+                        <div class="border p-4 rounded mb-4">
+                            <h3 class="mb-3 h6 text-uppercase text-black d-block">Brand</h3>
+                            <ul class="list-unstyled mb-0">
+                                @foreach (var brand in ViewBag.AllBrands as List<string>)
+                                {
+                                    <li class="mb-1">
+                                        <a class="d-flex">
+                                            <span>@brand</span>
+                                            <span class="text-black ml-auto">
+                                                <label class="d-flex">
+                                                    <input type="checkbox" name="brands" value="@brand"
+                                                    @(Model.SelectedBrands != null && Model.SelectedBrands.Contains(brand) ? "checked" : "")>
+                                                </label>
+                                            </span>
+                                        </a>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+
+                        <!-- Offers & Stock -->
+                        <div class="border p-4 rounded mb-4">
+                            <h3 class="mb-3 h6 text-uppercase text-black d-block">Offers & Stock</h3>
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-1">
+                                    <a class="d-flex">
+                                        <span>On Sale</span>
+                                        <span class="text-black ml-auto">
+                                            <label class="d-flex">
+                                                <input type="checkbox" name="discount" value="true"
+                                                @(Model.Discount == true ? "checked" : "")>
+                                            </label>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="mb-1">
+                                    <a class="d-flex">
+                                        <span>Is Available</span>
+                                        <span class="text-black ml-auto">
+                                            <label class="d-flex">
+                                                <input type="checkbox" name="isAvailable" value="true"
+                                                @(Model.isAvailable == true ? "checked" : "")>
+                                            </label>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Sizes -->
+                        <div class="border p-4 rounded mb-4" id="size-container">
+                            <h3 class="mb-3 h6 text-uppercase text-black d-block">Sizes</h3>
+
+                            <!-- Alphabet Sizes -->
+                            <div class="mb-4" id="alphabet-sizes">
+                                <ul class="list-unstyled mb-0">
+                                    @if (ViewBag.AlphabetSizes is List<string> alphaSizes)
+                                    {
+                                        foreach (var size in alphaSizes)
+                                        {
+                                            <li class="mb-1">
+                                                <a class="d-flex">
+                                                    <span>@size</span>
+                                                    <span class="text-black ml-auto">
+                                                        <label class="d-flex">
+                                                            <input type="checkbox" name="selectedAlphaSizes" value="@size"
+                                                            @(Model.SelectedAlphaSizes != null && Model.SelectedAlphaSizes.Contains(size) ? "checked" : "") />
+                                                        </label>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        }
+                                    }
+                                </ul>
+                            </div>
+
+                            <!-- Numeric Sizes -->
+                            <div class="mb-4" id="numeric-sizes">
+                                <ul class="list-unstyled mb-0">
+                                    @if (ViewBag.NumericSizes is List<string> numericSizes)
+                                    {
+                                        foreach (var size in numericSizes)
+                                        {
+                                            <li class="mb-1">
+                                                <a class="d-flex">
+                                                    <span>@size</span>
+                                                    <span class="text-black ml-auto">
+                                                        <label class="d-flex">
+                                                            <input type="checkbox" name="selectedNumericSizes" value="@size"
+                                                            @(Model.SelectedNumericSizes != null && Model.SelectedNumericSizes.Contains(size) ? "checked" : "") />
+                                                        </label>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        }
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Submit and Reset Buttons -->
+                        <button type="submit" class="btn btn-primary mt-3">Apply Filters</button>
+                    </form>
+
+                    <a asp-area="Customer" asp-controller="Home" asp-action="Filter">
+                        <button class="btn btn-primary mt-3">Reset All</button>
+                    </a>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+</div>
+
+

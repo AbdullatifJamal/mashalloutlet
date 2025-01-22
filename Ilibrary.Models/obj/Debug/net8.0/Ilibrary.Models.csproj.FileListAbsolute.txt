@@ -1,0 +1,129 @@
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\bin\Debug\net8.0\Ilibrary.Models.deps.json
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\bin\Debug\net8.0\Ilibrary.Models.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\bin\Debug\net8.0\Ilibrary.Models.pdb
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\obj\Debug\net8.0\Ilibrary.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfoInputs.cache
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfo.cs
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\obj\Debug\net8.0\Ilibrary.Models.csproj.CoreCompileInputs.cache
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\obj\Debug\net8.0\Ilibrary.Models.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\obj\Debug\net8.0\refint\Ilibrary.Models.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\obj\Debug\net8.0\Ilibrary.Models.pdb
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Models\obj\Debug\net8.0\ref\Ilibrary.Models.dll
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.deps.json
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.dll
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.pdb
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfoInputs.cache
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfo.cs
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.csproj.CoreCompileInputs.cache
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.dll
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\refint\Ilibrary.Models.dll
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.pdb
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\ref\Ilibrary.Models.dll
+D:\.net\Ilibrary\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.deps.json
+D:\.net\Ilibrary\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.dll
+D:\.net\Ilibrary\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.pdb
+D:\.net\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfoInputs.cache
+D:\.net\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfo.cs
+D:\.net\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.csproj.CoreCompileInputs.cache
+D:\.net\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.dll
+D:\.net\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\refint\Ilibrary.Models.dll
+D:\.net\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.pdb
+D:\.net\Ilibrary\Ilibrary.Models\obj\Debug\net8.0\ref\Ilibrary.Models.dll
+C:\Projects\MashalStore\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.deps.json
+C:\Projects\MashalStore\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.dll
+C:\Projects\MashalStore\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.pdb
+C:\Projects\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfoInputs.cache
+C:\Projects\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfo.cs
+C:\Projects\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.csproj.CoreCompileInputs.cache
+C:\Projects\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.sourcelink.json
+C:\Projects\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.dll
+C:\Projects\MashalStore\Ilibrary.Models\obj\Debug\net8.0\refint\Ilibrary.Models.dll
+C:\Projects\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.pdb
+C:\Projects\MashalStore\Ilibrary.Models\obj\Debug\net8.0\ref\Ilibrary.Models.dll
+C:\Projects\New folder\MashalStore\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.deps.json
+C:\Projects\New folder\MashalStore\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.dll
+C:\Projects\New folder\MashalStore\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.pdb
+C:\Projects\New folder\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\New folder\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfoInputs.cache
+C:\Projects\New folder\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfo.cs
+C:\Projects\New folder\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.csproj.CoreCompileInputs.cache
+C:\Projects\New folder\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.sourcelink.json
+C:\Projects\New folder\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.dll
+C:\Projects\New folder\MashalStore\Ilibrary.Models\obj\Debug\net8.0\refint\Ilibrary.Models.dll
+C:\Projects\New folder\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.pdb
+C:\Projects\New folder\MashalStore\Ilibrary.Models\obj\Debug\net8.0\ref\Ilibrary.Models.dll
+C:\test\MashalStore\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.deps.json
+C:\test\MashalStore\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.dll
+C:\test\MashalStore\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.pdb
+C:\test\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\test\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfoInputs.cache
+C:\test\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfo.cs
+C:\test\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.csproj.CoreCompileInputs.cache
+C:\test\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.sourcelink.json
+C:\test\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.dll
+C:\test\MashalStore\Ilibrary.Models\obj\Debug\net8.0\refint\Ilibrary.Models.dll
+C:\test\MashalStore\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.pdb
+C:\test\MashalStore\Ilibrary.Models\obj\Debug\net8.0\ref\Ilibrary.Models.dll
+C:\Projects\abood\Abood\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.deps.json
+C:\Projects\abood\Abood\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.dll
+C:\Projects\abood\Abood\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.pdb
+C:\Projects\abood\Abood\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\abood\Abood\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfoInputs.cache
+C:\Projects\abood\Abood\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfo.cs
+C:\Projects\abood\Abood\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.csproj.CoreCompileInputs.cache
+C:\Projects\abood\Abood\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.sourcelink.json
+C:\Projects\abood\Abood\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.dll
+C:\Projects\abood\Abood\Ilibrary.Models\obj\Debug\net8.0\refint\Ilibrary.Models.dll
+C:\Projects\abood\Abood\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.pdb
+C:\Projects\abood\Abood\Ilibrary.Models\obj\Debug\net8.0\ref\Ilibrary.Models.dll
+C:\Projects\MashalOutlet\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.deps.json
+C:\Projects\MashalOutlet\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.dll
+C:\Projects\MashalOutlet\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.pdb
+C:\Projects\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfoInputs.cache
+C:\Projects\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfo.cs
+C:\Projects\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.csproj.CoreCompileInputs.cache
+C:\Projects\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.sourcelink.json
+C:\Projects\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.dll
+C:\Projects\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\refint\Ilibrary.Models.dll
+C:\Projects\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.pdb
+C:\Projects\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\ref\Ilibrary.Models.dll
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.deps.json
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.dll
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.pdb
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfoInputs.cache
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfo.cs
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.csproj.CoreCompileInputs.cache
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.sourcelink.json
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.dll
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\refint\Ilibrary.Models.dll
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.pdb
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\ref\Ilibrary.Models.dll
+C:\MashalOutlet\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.deps.json
+C:\MashalOutlet\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.dll
+C:\MashalOutlet\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.pdb
+C:\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfoInputs.cache
+C:\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfo.cs
+C:\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.csproj.CoreCompileInputs.cache
+C:\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.sourcelink.json
+C:\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.dll
+C:\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\refint\Ilibrary.Models.dll
+C:\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.pdb
+C:\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\ref\Ilibrary.Models.dll
+C:\test\MashalOutlet\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.deps.json
+C:\test\MashalOutlet\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.dll
+C:\test\MashalOutlet\Ilibrary.Models\bin\Debug\net8.0\Ilibrary.Models.pdb
+C:\test\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\test\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfoInputs.cache
+C:\test\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.AssemblyInfo.cs
+C:\test\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.csproj.CoreCompileInputs.cache
+C:\test\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.dll
+C:\test\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\refint\Ilibrary.Models.dll
+C:\test\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.pdb
+C:\test\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\ref\Ilibrary.Models.dll
+C:\test\MashalOutlet\Ilibrary.Models\obj\Debug\net8.0\Ilibrary.Models.sourcelink.json

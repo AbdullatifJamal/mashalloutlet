@@ -1,0 +1,311 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    var categories = ViewBag.Categories as List<Section>;
+    var currentAction = HttpContextAccessor.HttpContext?.Request.RouteValues["action"]?.ToString();
+    var currentController = HttpContextAccessor.HttpContext?.Request.RouteValues["controller"]?.ToString();
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mashall Outlet</title>
+    <link rel="icon" type="image/png" href="https://img.freepik.com/premium-vector/e-commerce-online-shop-t-shirt-pants-gift-box-shopping-review-product-illustration-vector-icon_679085-41.jpg">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/IlibraryWeb.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
+
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="//cdn.datatables.net/2.0.2/css/dataTables.dataTables.min.css" />
+    <script src="https://kit.fontawesome.com/20487f3d53.js" crossorigin="anonymous"></script>
+    <title>Shoppers &mdash; Colorlib e-Commerce Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta:300,400,700">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/magnific-popup.css">
+    <link rel="stylesheet" href="~/css/jquery-ui.css">
+    <link rel="stylesheet" href="~/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/css/owl.theme.default.min.css">
+
+
+    <link rel="stylesheet" href="~/css/aos.css">
+
+    <link rel="stylesheet" href="~/css/style.css">
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+
+
+    <link rel="stylesheet" href="//cdn.datatables.net/2.0.2/css/dataTables.dataTables.min.css" />
+    <script src="https://kit.fontawesome.com/20487f3d53.js" crossorigin="anonymous"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+    <style>
+        /* Optional custom styling */
+        .navbar {
+            padding: 3rem 1rem;
+            background-color: #fff;
+        }
+
+        .navbar-nav .nav-link {
+            padding: 10px 15px;
+            color: #333;
+            text-decoration: none;
+            font-size: large;
+        }
+
+            .navbar-nav .nav-link:hover {
+                color: #007bff;
+            }
+
+        .navbar-toggler {
+            border: none;
+        }
+
+        .navbar-toggler-icon {
+            background-image: url('data:image/svg+xml,%3Csvg%20width%3D"30"%20height%3D"30"%20viewBox%3D"0%200%2030%2030"%20fill%3D"none"%20xmlns%3D"http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg"%3E%3Cpath%20fill-rule%3D"evenodd"%20clip-rule%3D"evenodd"%20d%3D"M0%200h30v30H0V0z"%20fill%3D"%23000000"%2F%3E%3Cpath%20fill-rule%3D"evenodd"%20clip-rule%3D"evenodd"%20d%3D"M6%207h18a1%201%200%200%201%201%201v4a1%201%200%200%200-1%201H6a1%201%200%200%200-1-1V7a1%201%200%200%200%201-1h18" fill%3D"%23fff"%2F%3E%3C/svg%3E');
+        }
+
+    </style>
+    <style>
+
+        .responsive-map {
+            width: 100%;
+            height: 150px;
+            max-width: 1000px;
+            border: 0;
+        }
+
+        @@media (max-width: 768px) {
+            .responsive-map {
+                height: 200px;
+            }
+        }
+
+        .colorlib-social-icons {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 10px;
+        }
+
+            .colorlib-social-icons li {
+                display: inline-block;
+            }
+
+            .colorlib-social-icons img.social-icon {
+                width: 32px;
+                height: 32px;
+                object-fit: cover;
+            }
+    </style>
+
+
+
+</head>
+<body>
+
+    <div class="site-wrap">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <!-- Logo Section -->
+                <a class="navbar-brand" style="font-size:x-large; border: 2px solid #000; padding: 5px 15px; border-radius: 5px;" href="@Url.Action("Index", "Home", new { area = "Customer" })">Mashall Outlet</a>
+
+                <!-- Hamburger Toggle Button for Mobile View -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <!-- Centered Items -->
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Filter", "Home", new { area = "Customer", categories = "Men" })">Men</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Filter", "Home", new { area = "Customer", categories = "Women" })">Women</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Filter", "Home", new { area = "Customer", categories = "Kids" })">Kids</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Filter", "Home", new { area = "Customer" })">View Products</a>
+                        </li>
+                    </ul>
+
+                    <!-- Right-aligned Items (Search and Account) -->
+                    <ul class="navbar-nav ms-auto">
+                        @if (User.IsInRole(SD.Role_Admin))
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Content Management
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="@Url.Action("Index", "Type", new { area = "Admin" })">Type</a></li>
+                                    <li><a class="dropdown-item" href="@Url.Action("Index", "Product", new { area = "Admin" })">Product</a></li>
+                                    <li><a class="dropdown-item" href="@Url.Action("Index", "Brand", new { area = "Admin" })">Brand</a></li>
+                                    <li><a class="dropdown-item" href="@Url.Action("Filter", "Home", new { area = "Customer" })">Filter</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="@Url.Page("/Account/Register", new { area = "Identity" })">Create User</a></li>
+                                    <li><a class="dropdown-item" href="@Url.Action("Index", "User", new { area = "Admin" })">Manage User</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link logout-link" id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })" style="font-size:x-large">
+                                    <i class="bi bi-box-arrow-right"></i>
+                                    <span class="logout-text nav-link">Logout</span>
+                                </a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link login-link" id="login" asp-area="Identity" asp-page="/Account/Login" style="font-size:x-large">
+                                    <span class="icon icon-user"></span>
+                                    <span class="login-text nav-link">Login</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link search-link" asp-area="Customer" asp-controller="Home" asp-action="Filter" style="font-size:x-large">
+                                    <span class="icon icon-search2"></span>
+                                    <span class="search-text nav-link">Search</span>
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <style>
+        /* Default: hide text, show icons */
+        .logout-text,
+        .login-text,
+        .search-text {
+            display: none;
+        }
+
+        /* For mobile devices */
+        @@media (max-width: 768px) {
+            .logout-text, .login-text, .search-text
+
+        {
+            display: inline;
+            
+        }
+
+        .logout-link .bi,
+        .login-link .icon-user,
+        .search-link .icon-search2 {
+            display: none;
+        }
+
+        
+
+        }
+    </style>
+
+
+
+    <div class="container flex-grow-1">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer id="colorlib-footer" role="contentinfo">
+        <div class="container">
+            <div class="row row-pb-md">
+                <div class="col footer-col colorlib-widget">
+                    <h4>About Mashall Outlet</h4>
+                    <p>We offer premium European original clothing and footwear at exceptional prices, ensuring quality and elegance for your style.</p>
+                    <p>
+
+                    </p>
+                </div>
+                <div class="col footer-col colorlib-widget">
+                    <h4>Customer Service</h4>
+                    <p>
+                        <ul class="colorlib-footer-links">
+                            <li>Beside the Italian Hospital, <br> Downtown, Amman, Jordan</li>
+                            <li><a>All week: 12:00 - 20:00</a></li>
+                            <li><a href="https://wa.me/+962795991994">+962795991994</a></li>
+                            <li><a href="mailto:mashaloutlet@gmail.com">mashaloutlet@gmail.com</a></li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="col footer-col colorlib-widget">
+                    <h4>Follow us on</h4>
+                    <p>
+                        <ul class="colorlib-social-icons">
+                            @* <li><a href="#"><i class="icon-twitter"></i></a></li> *@
+                            @* <li><a href="#"><i class="icon-facebook"></i></a></li> *@
+                            <li><a href="https://www.facebook.com/profile.php?id=100063970336151"><img src="~/images/facebok.png" class="social-icon" /></a></li>
+                            <li><a href="https://www.instagram.com/mashall.outlet?igsh=Y3hsYW5rcXZvcWJq"><img src="~/images/instgram.png" class="social-icon" /></a></li>
+                        </ul>
+                    </p>
+                </div>
+
+                <div class="col footer-col">
+                    <h4>Find our store</h4>
+                    <ul class="colorlib-footer-links">
+                        <li>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d211.59912787812522!2d35.932302560305835!3d31.944994298273336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151b5ffcd0f65161%3A0x377edef18e4093d1!2z2YXYtNi52YQg2YTZhNiq2LXZgdmK2Kkg2KfZhNij2YXYsdmK2YPZitip!5e0!3m2!1sen!2sjo!4v1732973243977!5m2!1sen!2sjo"
+                                    class="responsive-map"
+                                    style="border:0;"
+                                    allowfullscreen=""
+                                    loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+
+    </footer>
+
+    </div>
+    <script src="//cdn.datatables.net/2.0.2/js/dataTables.min.js" asp-append-version="true"></script>
+    <script src="https://cdn.tiny.cloud/1/4luocjksldfbu3c0nd5pls2j451n72tgqssmichnz3lse2kx/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <link rel="stylesheet" type="text/css" href="~/dt/datatables.min.css">
+    <script type="text/javascript" src="~/dt/datatables.min.js"></script>
+    <script src="~/js/jquery-3.3.1.min.js"></script>
+    <script src="~/js/jquery-ui.js"></script>
+    <script src="~/js/popper.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/owl.carousel.min.js"></script>
+    <script src="~/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/js/aos.js"></script>
+
+    <script src="~/js/main.js"></script>
+
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+

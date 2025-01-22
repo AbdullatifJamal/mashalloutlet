@@ -1,0 +1,540 @@
+﻿@using System.Web
+@using Ilibrary.Utility
+@model DetailsVM
+
+
+
+
+<style>
+    /* Encapsulated Container */
+    .product-details-container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 1rem;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .block-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%; /* Ensures the card spans the full height */
+    }
+
+    .block-4-image img {
+        width: 100%; /* Ensures the image is fluid */
+        height: 300px; /* Fixed height to keep images consistent */
+        object-fit: cover; /* Ensures images are cropped proportionally */
+    }
+
+    .block-4-text {
+        flex-grow: 1; /* Allows content to stretch */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .card {
+        width: 300px; /* Fixed width for each card */
+        height: 500px; /* Fixed height for each card */
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+        .card .product-imgs, .card .product-content {
+            flex: 1 1 calc(50% - 1rem);
+            box-sizing: border-box;
+        }
+
+
+    /* Flex Layout for Image and Content */
+    .product-card {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .product-imgs,
+    .product-content {
+        flex: 1;
+        min-width: 300px;
+    }
+
+        .product-imgs img {
+            width: 100%; /* Make the image fluid */
+            height: auto; /* Maintain aspect ratio */
+            object-fit: contain; /* Ensure the image fits within the container */
+        }
+    /* Image Section Styling */
+    .product-imgs {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .img-showcase {
+        border: 2px solid #ddd;
+        border-radius: 4px;
+        overflow: hidden;
+        height: 400px;
+    }
+
+        .img-showcase img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+            .img-showcase img:hover {
+                transform: scale(1.05);
+            }
+
+    .img-select {
+        display: flex;
+        gap: 0.5rem;
+        justify-content: center;
+    }
+
+    .img-item img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border: 2px solid #ddd;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: transform 0.3s, border-color 0.3s;
+    }
+
+        .img-item img:hover {
+            transform: scale(1.1);
+            border-color: #256eff;
+        }
+
+    /* Product Content Styling */
+    .product-title {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 0.5rem;
+    }
+
+    .product-link {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 0.9rem;
+        display: inline-block;
+        margin-bottom: 0.5rem;
+        background: #7971ea;
+        color: #fff;
+        padding: 0 0.3rem;
+        transition: all 0.5s ease;
+    }
+
+        .product-link:hover {
+            color: #0056b3;
+        }
+
+    .product-price {
+        margin: 1rem 0;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #256eff;
+    }
+
+    .last-price span {
+        color: #f66a47;
+        text-decoration: line-through;
+    }
+
+    .new-price span {
+        color: #256eff;
+    }
+
+    .product-detail h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .product-detail p {
+        font-size: 0.9rem;
+        line-height: 1.6;
+        color: #555;
+    }
+
+    /* Messenger and WhatsApp Buttons */
+    .share-buttons a {
+        display: inline-block;
+        margin-right: 10px;
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-size: 0.9rem;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-messenger {
+        background-color: #0084FF;
+    }
+
+    .btn-whatsapp {
+        background-color: #25D366;
+    }
+
+    .share-buttons a:hover {
+        opacity: 0.9;
+    }
+
+    /* Responsive Design */
+    @@media screen and (max-width: 768px) {
+        .product-card {
+            flex-direction: column;
+        }
+
+        .img-showcase {
+            height: 300px;
+        }
+
+        .img-item img {
+            width: 60px;
+            height: 60px;
+        }
+    }
+</style>
+
+
+<div class="site-wrap">
+    <!-- Item Details Section Start here -->
+    <div class="product-details-container">
+        <div class="product-card">
+            <!-- Left Section -->
+            <div class="product-imgs">
+                <div class="img-display">
+                    <div class="img-showcase">
+                        <img id="current-image" src="data:image/jpeg;base64,@Convert.ToBase64String(Model.product.MainImage)" alt="@Model.product.Name" onclick="openGallery()">
+                    </div>
+                </div>
+                <div class="img-select">
+                    <div class="img-item">
+                        <a href="#" data-id="main">
+                            <img src="data:image/jpeg;base64,@Convert.ToBase64String(Model.product.MainImage)" alt="@Model.product.Name">
+                        </a>
+                    </div>
+                    @for (int i = 0; i < Model.product.SecondaryImages.Length; i++)
+                    {
+                        <div class="img-item">
+                            <a href="#" data-id="@i">
+                                <img src="data:image/jpeg;base64,@Convert.ToBase64String(Model.product.SecondaryImages[i])" alt="@Model.product.Name">
+                            </a>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <!-- Right Section: Product Details -->
+            <div class="product-content">
+                <h2 class="product-title">@Model.product.Name</h2>
+                <a href="#" class="product-link">Size: @Model.product.Size</a>
+                <a href="#" class="product-link">@Model.product.brand.Name</a>
+                <a href="#" class="product-link">@Model.product.Category</a>
+                <a href="#" class="product-link">@Model.product.Type.Name</a>
+                @if (Model.product.IsAvailable.Value == true)
+                {
+                    <a href="#" class="product-link" style="background: green;">Available</a>
+                }
+                else
+                {
+                    <a href="#" class="product-link" style="background: red;">Out of Stock</a>
+                }
+
+                <div class="product-price">
+                    @if (Model.product.Discount > 0)
+                    {
+                        <p class="last-price">Old Price: <span>@Model.product.Price JD</span></p>
+                        <p class="new-price">New Price: <span>@(Model.product.Price - (Model.product.Price * Model.product.Discount / 100)) JD</span></p>
+                    }
+                    else
+                    {
+                        <p class="new-price">Price: <span>@Model.product.Price JD</span></p>
+                    }
+                </div>
+                <div class="product-detail">
+                    <h2>About this item</h2>
+                    <p>@Model.product.Description</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Gallery Modal -->
+<div id="galleryModal"
+     class="gallery-modal"
+     style="display: none;"
+     onclick="closeGalleryOnBackgroundClick(event)">
+    <span class="close" onclick="closeGallery()">&times;</span>
+    <div class="gallery-content" onclick="event.stopPropagation()">
+        <div class="gallery-image-container">
+            <img id="gallery-image"
+                 src="data:image/jpeg;base64,@Convert.ToBase64String(Model.product.MainImage)"
+                 alt="@Model.product.Name" />
+        </div>
+    </div>
+    <div class="gallery-thumbnails" onclick="event.stopPropagation()">
+        <img src="data:image/jpeg;base64,@Convert.ToBase64String(Model.product.MainImage)"
+             alt="@Model.product.Name"
+             onclick="updateGalleryImage(this)" />
+        @for (int i = 0; i < Model.product.SecondaryImages.Length; i++)
+        {
+            <img src="data:image/jpeg;base64,@Convert.ToBase64String(Model.product.SecondaryImages[i])"
+                 alt="@Model.product.Name"
+                 onclick="updateGalleryImage(this)" />
+        }
+    </div>
+</div>
+
+
+
+<style>
+    /* Modal styling */
+    .gallery-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.8); /* Dim background */
+        display: none; /* Ensure modal is hidden initially */
+        align-items: center;
+        justify-content: center;
+        z-index: 1000; /* Base z-index for modal */
+    }
+
+    /* Close button styling */
+    .close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+        z-index: 1001;
+    }
+
+    /* Main image container for centering */
+    .gallery-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 70%;
+    }
+
+    .gallery-image-container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .gallery-image-container img {
+            max-width: 90vw;
+            max-height: 80vh;
+            object-fit: contain;
+            margin: auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 1; /* Current image is slightly below other thumbnails */
+        }
+
+    /* Thumbnail section */
+    .gallery-thumbnails {
+        position: absolute;
+        bottom: 10px;
+        display: flex;
+        gap: 10px;
+        z-index: 2; /* Ensure thumbnails are above the current image */
+    }
+
+        .gallery-thumbnails img {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border: 2px solid #fff;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+            .gallery-thumbnails img:hover {
+                transform: scale(1.1); /* Slight zoom on hover */
+                border-color: #ffa500;
+            }
+
+    /* Responsive Design */
+    @@media (max-width: 768px) {
+        .gallery-content
+
+    {
+        height: 60%;
+    }
+
+    .gallery-thumbnails img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .close {
+        font-size: 24px;
+    }
+
+    }
+
+    @@media (max-width: 480px) {
+        .gallery-thumbnails img
+
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+    .gallery-content {
+        height: 50%;
+    }
+
+    }
+</style>
+
+<script>
+    // Function to open the gallery when the selected image is clicked
+    function openGalleryFromImage(imageElement) {
+        const galleryImage = document.getElementById("gallery-image");
+        galleryImage.src = imageElement.src; // Set the main image to the clicked one
+        openGallery(); // Open the modal
+    }
+
+    // Function to open the gallery modal
+    function openGallery() {
+        document.getElementById("galleryModal").style.display = "flex";
+    }
+
+    // Function to close the gallery modal
+    function closeGallery() {
+        document.getElementById("galleryModal").style.display = "none";
+    }
+
+    // Function to update the main gallery image when a thumbnail is clicked
+    function updateGalleryImage(image) {
+        const galleryImage = document.getElementById("gallery-image");
+        galleryImage.src = image.src;
+    }
+
+    // Function to close the gallery when clicking outside the image and thumbnails
+    function closeGalleryOnBackgroundClick(event) {
+        const modal = document.getElementById("galleryModal");
+        const content = modal.querySelector(".gallery-content");
+        const thumbnails = modal.querySelector(".gallery-thumbnails");
+
+        // Check if the click target is not inside the content or thumbnails
+        if (!content.contains(event.target) && !thumbnails.contains(event.target)) {
+            closeGallery();
+        }
+    }
+</script>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+<div class="site-section block-3 site-blocks-2 bg-light">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-7 site-section-heading text-center pt-4">
+                <h2>Featured Products</h2>
+            </div>
+        </div>
+
+
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="nonloop-block-3 owl-carousel">
+                    @foreach (Product item in Model.Products.Take(3))
+                    {
+                        <div class="item">
+                            <a asp-area="Customer" asp-controller="Home" asp-action="Details" asp-route-productId="@item.Id">
+                            <div class="block-4 text-center">
+                                <figure class="block-4-image">
+                                    <img class="img-fluid" src="data:image/jpeg;base64, @Convert.ToBase64String(item.MainImage)">
+                                </figure>
+                                <div class="block-4-text p-4">
+                                    <h3><a href="#">@item.Name</a></h3>
+                                    @if (item.Discount == 0)
+                                    {
+                                        <p class="price font-weight-bold">@item.Price JD</p>
+                                    }
+                                    else
+                                    {
+                                        <p class="price font-weight-bold">
+                                            @(item.Price - (item.Discount * item.Price / 100)) JD
+                                            <span class="original-price">@item.Price JD</span>
+                                        </p>
+                                    }
+                                    @if (@item.IsAvailable == true)
+                                    {
+                                        <p class="brand">In Stock</p>
+                                    }
+                                    else
+                                    {
+                                        <p class="brand">Out of Stock</p>
+                                    }
+                                    <p class="mb-0">@item.Size</p>
+
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const currentImage = document.getElementById("current-image");
+        const imgItems = document.querySelectorAll(".img-select .img-item a");
+
+        imgItems.forEach((item) => {
+            item.addEventListener("click", function (e) {
+                e.preventDefault();
+                const newSrc = this.querySelector("img").src; // Get the thumbnail source
+                currentImage.src = newSrc; // Update the main image
+            });
+        });
+    });
+</script>

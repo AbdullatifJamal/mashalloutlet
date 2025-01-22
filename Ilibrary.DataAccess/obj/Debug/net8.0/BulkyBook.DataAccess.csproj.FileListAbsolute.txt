@@ -1,0 +1,38 @@
+D:\.net\Bulky\Bulky.DataAccess\bin\Debug\net8.0\BulkyBook.DataAccess.deps.json
+D:\.net\Bulky\Bulky.DataAccess\bin\Debug\net8.0\BulkyBook.DataAccess.runtimeconfig.json
+D:\.net\Bulky\Bulky.DataAccess\bin\Debug\net8.0\BulkyBook.DataAccess.dll
+D:\.net\Bulky\Bulky.DataAccess\bin\Debug\net8.0\BulkyBook.DataAccess.pdb
+D:\.net\Bulky\Bulky.DataAccess\bin\Debug\net8.0\BulkyBook.Models.dll
+D:\.net\Bulky\Bulky.DataAccess\bin\Debug\net8.0\BulkyBook.Utility.dll
+D:\.net\Bulky\Bulky.DataAccess\bin\Debug\net8.0\BulkyBook.Models.pdb
+D:\.net\Bulky\Bulky.DataAccess\bin\Debug\net8.0\BulkyBook.Utility.pdb
+D:\.net\Bulky\Bulky.DataAccess\obj\Debug\net8.0\BulkyBook.DataAccess.csproj.AssemblyReference.cache
+D:\.net\Bulky\Bulky.DataAccess\obj\Debug\net8.0\BulkyBook.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\Bulky\Bulky.DataAccess\obj\Debug\net8.0\BulkyBook.DataAccess.AssemblyInfoInputs.cache
+D:\.net\Bulky\Bulky.DataAccess\obj\Debug\net8.0\BulkyBook.DataAccess.AssemblyInfo.cs
+D:\.net\Bulky\Bulky.DataAccess\obj\Debug\net8.0\BulkyBook.DataAccess.csproj.CoreCompileInputs.cache
+D:\.net\Bulky\Bulky.DataAccess\obj\Debug\net8.0\BulkyBook.DataAccess.csproj.CopyComplete
+D:\.net\Bulky\Bulky.DataAccess\obj\Debug\net8.0\BulkyBook.DataAccess.dll
+D:\.net\Bulky\Bulky.DataAccess\obj\Debug\net8.0\refint\BulkyBook.DataAccess.dll
+D:\.net\Bulky\Bulky.DataAccess\obj\Debug\net8.0\BulkyBook.DataAccess.pdb
+D:\.net\Bulky\Bulky.DataAccess\obj\Debug\net8.0\BulkyBook.DataAccess.genruntimeconfig.cache
+D:\.net\Bulky\Bulky.DataAccess\obj\Debug\net8.0\ref\BulkyBook.DataAccess.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\bin\Debug\net8.0\BulkyBook.DataAccess.deps.json
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\bin\Debug\net8.0\BulkyBook.DataAccess.runtimeconfig.json
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\bin\Debug\net8.0\BulkyBook.DataAccess.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\bin\Debug\net8.0\BulkyBook.DataAccess.pdb
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\bin\Debug\net8.0\BulkyBook.Models.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\bin\Debug\net8.0\BulkyBook.Utility.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\bin\Debug\net8.0\BulkyBook.Models.pdb
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\bin\Debug\net8.0\BulkyBook.Utility.pdb
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\obj\Debug\net8.0\BulkyBook.DataAccess.csproj.AssemblyReference.cache
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\obj\Debug\net8.0\BulkyBook.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\obj\Debug\net8.0\BulkyBook.DataAccess.AssemblyInfoInputs.cache
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\obj\Debug\net8.0\BulkyBook.DataAccess.AssemblyInfo.cs
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\obj\Debug\net8.0\BulkyBook.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\obj\Debug\net8.0\BulkyBoo.9EA05358.Up2Date
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\obj\Debug\net8.0\BulkyBook.DataAccess.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\obj\Debug\net8.0\refint\BulkyBook.DataAccess.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\obj\Debug\net8.0\BulkyBook.DataAccess.pdb
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\obj\Debug\net8.0\BulkyBook.DataAccess.genruntimeconfig.cache
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.DataAccess\obj\Debug\net8.0\ref\BulkyBook.DataAccess.dll

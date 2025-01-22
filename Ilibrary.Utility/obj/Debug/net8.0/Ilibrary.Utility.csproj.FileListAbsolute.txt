@@ -1,0 +1,153 @@
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Utility\bin\Debug\net8.0\Ilibrary.Utility.deps.json
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Utility\bin\Debug\net8.0\Ilibrary.Utility.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Utility\bin\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.AssemblyReference.cache
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\Ilibrary.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfoInputs.cache
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfo.cs
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.CoreCompileInputs.cache
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\Ilibrary.Utility.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\refint\Ilibrary.Utility.dll
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Users\khali\Downloads\Telegram Desktop\Bulky\Bulky.Utility\obj\Debug\net8.0\ref\Ilibrary.Utility.dll
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.deps.json
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.dll
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.AssemblyReference.cache
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfoInputs.cache
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfo.cs
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.CoreCompileInputs.cache
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.dll
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\refint\Ilibrary.Utility.dll
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Users\khali\source\repos\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\ref\Ilibrary.Utility.dll
+D:\.net\Ilibrary\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.deps.json
+D:\.net\Ilibrary\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.dll
+D:\.net\Ilibrary\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.pdb
+D:\.net\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.AssemblyReference.cache
+D:\.net\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfoInputs.cache
+D:\.net\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfo.cs
+D:\.net\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.CoreCompileInputs.cache
+D:\.net\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.dll
+D:\.net\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\refint\Ilibrary.Utility.dll
+D:\.net\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.pdb
+D:\.net\Ilibrary\Ilibrary.Utility\obj\Debug\net8.0\ref\Ilibrary.Utility.dll
+C:\Projects\MashalStore\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.deps.json
+C:\Projects\MashalStore\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.dll
+C:\Projects\MashalStore\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Projects\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.AssemblyReference.cache
+C:\Projects\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfoInputs.cache
+C:\Projects\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfo.cs
+C:\Projects\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.CoreCompileInputs.cache
+C:\Projects\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.sourcelink.json
+C:\Projects\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.dll
+C:\Projects\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\refint\Ilibrary.Utility.dll
+C:\Projects\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Projects\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\ref\Ilibrary.Utility.dll
+C:\Projects\New folder\MashalStore\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.deps.json
+C:\Projects\New folder\MashalStore\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.dll
+C:\Projects\New folder\MashalStore\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Projects\New folder\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.AssemblyReference.cache
+C:\Projects\New folder\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\New folder\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfoInputs.cache
+C:\Projects\New folder\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfo.cs
+C:\Projects\New folder\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.CoreCompileInputs.cache
+C:\Projects\New folder\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.sourcelink.json
+C:\Projects\New folder\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.dll
+C:\Projects\New folder\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\refint\Ilibrary.Utility.dll
+C:\Projects\New folder\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Projects\New folder\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\ref\Ilibrary.Utility.dll
+C:\test\MashalStore\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.deps.json
+C:\test\MashalStore\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.dll
+C:\test\MashalStore\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.pdb
+C:\test\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.AssemblyReference.cache
+C:\test\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\test\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfoInputs.cache
+C:\test\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfo.cs
+C:\test\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.CoreCompileInputs.cache
+C:\test\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.sourcelink.json
+C:\test\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.dll
+C:\test\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\refint\Ilibrary.Utility.dll
+C:\test\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.pdb
+C:\test\MashalStore\Ilibrary.Utility\obj\Debug\net8.0\ref\Ilibrary.Utility.dll
+C:\Projects\abood\Abood\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.deps.json
+C:\Projects\abood\Abood\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.dll
+C:\Projects\abood\Abood\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Projects\abood\Abood\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.AssemblyReference.cache
+C:\Projects\abood\Abood\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\abood\Abood\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfoInputs.cache
+C:\Projects\abood\Abood\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfo.cs
+C:\Projects\abood\Abood\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.CoreCompileInputs.cache
+C:\Projects\abood\Abood\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.sourcelink.json
+C:\Projects\abood\Abood\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.dll
+C:\Projects\abood\Abood\Ilibrary.Utility\obj\Debug\net8.0\refint\Ilibrary.Utility.dll
+C:\Projects\abood\Abood\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Projects\abood\Abood\Ilibrary.Utility\obj\Debug\net8.0\ref\Ilibrary.Utility.dll
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.deps.json
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.dll
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.AssemblyReference.cache
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfoInputs.cache
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfo.cs
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.CoreCompileInputs.cache
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.sourcelink.json
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.dll
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\refint\Ilibrary.Utility.dll
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Users\abdullatif\Downloads\development\New folder\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\ref\Ilibrary.Utility.dll
+C:\Projects\MashalOutlet\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.deps.json
+C:\Projects\MashalOutlet\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.dll
+C:\Projects\MashalOutlet\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Projects\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.AssemblyReference.cache
+C:\Projects\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfoInputs.cache
+C:\Projects\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfo.cs
+C:\Projects\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.CoreCompileInputs.cache
+C:\Projects\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.sourcelink.json
+C:\Projects\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.dll
+C:\Projects\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\refint\Ilibrary.Utility.dll
+C:\Projects\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Projects\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\ref\Ilibrary.Utility.dll
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.deps.json
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.dll
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.AssemblyReference.cache
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfoInputs.cache
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfo.cs
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.CoreCompileInputs.cache
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.sourcelink.json
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.dll
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\refint\Ilibrary.Utility.dll
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.pdb
+C:\Users\abdullatif\Downloads\development\New folder (2)kh\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\ref\Ilibrary.Utility.dll
+C:\MashalOutlet\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.deps.json
+C:\MashalOutlet\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.dll
+C:\MashalOutlet\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.pdb
+C:\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.AssemblyReference.cache
+C:\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfoInputs.cache
+C:\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfo.cs
+C:\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.CoreCompileInputs.cache
+C:\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.sourcelink.json
+C:\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.dll
+C:\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\refint\Ilibrary.Utility.dll
+C:\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.pdb
+C:\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\ref\Ilibrary.Utility.dll
+C:\test\MashalOutlet\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.deps.json
+C:\test\MashalOutlet\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.dll
+C:\test\MashalOutlet\Ilibrary.Utility\bin\Debug\net8.0\Ilibrary.Utility.pdb
+C:\test\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.AssemblyReference.cache
+C:\test\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\test\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfoInputs.cache
+C:\test\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.AssemblyInfo.cs
+C:\test\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.csproj.CoreCompileInputs.cache
+C:\test\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.dll
+C:\test\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\refint\Ilibrary.Utility.dll
+C:\test\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.pdb
+C:\test\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\ref\Ilibrary.Utility.dll
+C:\test\MashalOutlet\Ilibrary.Utility\obj\Debug\net8.0\Ilibrary.Utility.sourcelink.json

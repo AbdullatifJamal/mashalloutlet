@@ -1,0 +1,98 @@
+﻿@model FilterVM
+
+<div id="product-list-container">
+    @* Display products *@
+    <div class="row mb-5">
+        @if (!Model.ProductList.Any())
+        {
+            <div class="col-12 text-center">
+                <p class="text-muted">No products found matching your search criteria.</p>
+            </div>
+        }
+        else
+        {
+            @foreach (var item in Model.ProductList.Take(15))
+            {
+                <div class="col-sm-6 col-lg-4 mb-4" data-aos="fade-up">
+                    <div class="block-4 text-center border">
+                        <figure class="block-4-image">
+                            <a asp-area="Customer" asp-controller="Home" asp-action="Details" asp-route-productId="@item.Id">
+                                <img src="data:image/jpeg;base64,@Convert.ToBase64String(item.MainImage)" alt="@item.Name" class="img-fluid">
+                                @* <div> *@
+                                @*     <p class="text-primary font-weight-bold" style="background-color: #ffffff; position: absolute; top:155px;right: 25px; width: 30px;"><b>@item.Size</b></p> *@
+                                @* </div> *@
+                            </a>
+                        </figure>
+                        <div class="block-4-text p-4">
+                            <h3><a asp-area="Customer" asp-controller="Home" asp-action="Details" asp-route-productId="@item.Id">@item.Name</a></h3>
+                            @if (item.IsAvailable == true)
+                            {
+                                <p class="mb-0 text-success">In Stock</p>
+                            }
+                            else
+                            {
+                                <p class="mb-0 text-danger">Out of Stock</p>
+                            }
+                            @if (item.Discount == 0)
+                            {
+                                <p class="text-primary font-weight-bold">@item.Price JD</p>
+                            }
+                            else
+                            {
+                                <p class="price">
+                                    @(item.Price - (item.Discount * item.Price / 100)) JD
+                                    <span class="original-price">@item.Price JD</span>
+                                </p>
+                            }
+                            <p class="mb-0">Sizes: @item.Size</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>
+
+<div class="row" data-aos="fade-up">
+    <div class="col-md-12 text-center">
+        <div class="site-block-27">
+            <ul>
+                @* Previous page link *@
+                @if (Model.PageIndex == 0)
+                {
+                    <li class="disabled">
+                        <a href="#"> &lt; </a>
+                    </li>
+                }
+                else
+                {
+                    <li>
+                        <a href="?page=@(Model.PageIndex - 1)"> &lt; </a>
+                    </li>
+                }
+
+                @* Loop through and create page numbers *@
+                @for (var i = 0; i < Model.TotalPages; i++)
+                {
+                    <li class="@(i == Model.PageIndex ? "active" : "")">
+                        <a href="?page=@i">@(@i + 1)</a>
+                    </li>
+                }
+
+                @* Next page link *@
+                @if (Model.PageIndex == Model.TotalPages - 1)
+                {
+                    <li class="disabled">
+                        <a href="#"> &gt; </a>
+                    </li>
+                }
+                else
+                {
+                    <li>
+                        <a href="?page=@(Model.PageIndex + 1)"> &gt; </a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>

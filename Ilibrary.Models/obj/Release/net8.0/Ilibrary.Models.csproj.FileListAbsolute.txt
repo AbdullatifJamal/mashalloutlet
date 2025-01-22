@@ -1,0 +1,12 @@
+C:\test\MashalOutlet\Ilibrary.Models\bin\Release\net8.0\Ilibrary.Models.deps.json
+C:\test\MashalOutlet\Ilibrary.Models\bin\Release\net8.0\Ilibrary.Models.dll
+C:\test\MashalOutlet\Ilibrary.Models\bin\Release\net8.0\Ilibrary.Models.pdb
+C:\test\MashalOutlet\Ilibrary.Models\obj\Release\net8.0\Ilibrary.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\test\MashalOutlet\Ilibrary.Models\obj\Release\net8.0\Ilibrary.Models.AssemblyInfoInputs.cache
+C:\test\MashalOutlet\Ilibrary.Models\obj\Release\net8.0\Ilibrary.Models.AssemblyInfo.cs
+C:\test\MashalOutlet\Ilibrary.Models\obj\Release\net8.0\Ilibrary.Models.csproj.CoreCompileInputs.cache
+C:\test\MashalOutlet\Ilibrary.Models\obj\Release\net8.0\Ilibrary.Models.sourcelink.json
+C:\test\MashalOutlet\Ilibrary.Models\obj\Release\net8.0\Ilibrary.Models.dll
+C:\test\MashalOutlet\Ilibrary.Models\obj\Release\net8.0\refint\Ilibrary.Models.dll
+C:\test\MashalOutlet\Ilibrary.Models\obj\Release\net8.0\Ilibrary.Models.pdb
+C:\test\MashalOutlet\Ilibrary.Models\obj\Release\net8.0\ref\Ilibrary.Models.dll
